@@ -4,7 +4,8 @@ const router = express.Router();
 router.route('/')
 .get(async function (req, res){
     res.status(200)
-    res.json({message: 'result:' + string_square(req.query.string)})
+    var result = string_square(req.query.string)
+    res.json({result:result })
 });
 
 
