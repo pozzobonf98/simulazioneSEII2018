@@ -1,0 +1,24 @@
+{
+  "name": "simulazioneseii2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pozzobonf98/simulazioneSEII2018.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pozzobonf98/simulazioneSEII2018/issues"
+  },
+  "homepage": "https://github.com/pozzobonf98/simulazioneSEII2018#readme",
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
