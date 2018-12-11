@@ -2,10 +2,11 @@ const express = require('express');
 const router = express.Router();
 
 router.route('/')
-.get(async function (req, res){
+.get(function (req, res){
     res.status(200)
     var result = string_square(req.query.string)
     res.json({result:result })
+    res.status(200)
 });
 
 
