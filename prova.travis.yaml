@@ -6,7 +6,7 @@ deploy:
   api_key:
     secure: $HEROKU_KEY
   app:
-    develop: examgs
+    develop: simulazioneSEII2018
 install:
   - "npm install --no-optional"
 before_script:
